@@ -3,8 +3,9 @@ import "./globals.css";
 import favicon from "@/app/favicon.ico";
 import LayoutChildren from "@/lib/layoutChildren";
 import ProgressCircle from "@/components/ui/scrollCircle";
-import Footer from '@/components/footer'
-import HeaderTwo from '@/components/header/headerTwo'
+import Footer from "@/components/footer";
+import HeaderTwo from "@/components/header/headerTwo";
+import { Analytics } from "@vercel/analytics/next";
 
 const plus_jakarta_sans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -13,7 +14,7 @@ const plus_jakarta_sans = Plus_Jakarta_Sans({
 });
 
 export const metadata = {
- title: "San Luis Bail Bonds",
+  title: "San Luis Bail Bonds",
   description:
     "San Luis Bail Bonds provides fast, reliable 24/7 bail bond services in San Luis Obispo County. Discreet, compassionate support to get you or your loved one home quickly.",
   icons: {
@@ -44,6 +45,7 @@ export default function RootLayout({ children }) {
           <LayoutChildren>
             <HeaderTwo />
             {children}
+            <Analytics />
             <Footer />
           </LayoutChildren>
         </div>
