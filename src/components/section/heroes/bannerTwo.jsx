@@ -99,7 +99,7 @@ const BannerTwo = () => {
                 </ButtonOutline>
               </Link>
               <Link
-                href={"tel:+8055448888"}
+                href={"tel:8055448888"}
                 className="lg:mt-10 mt-2 inline-block"
               >
                 <ButtonFill

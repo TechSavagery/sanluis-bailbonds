@@ -41,7 +41,7 @@ const Footer = () => {
                 </Link>
                 <div className="mt-[17px]">
                   <Link
-                    href={"tel:+8055448888"}
+                    href={"tel:8055448888"}
                     className="text-lg block text-primary-foreground hover-underline"
                   >
                     Phone: <span> (805) 544-8888</span>
@@ -78,7 +78,7 @@ const Footer = () => {
                 </Link>
                 <div className="mt-[17px]">
                   <Link
-                    href={"tel:+8057814600"}
+                    href={"tel:8057814600"}
                     className="text-lg block text-primary-foreground hover-underline"
                   >
                     Phone: <span> (805) 781-4600</span>

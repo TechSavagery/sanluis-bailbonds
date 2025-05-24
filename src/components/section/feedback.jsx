@@ -33,7 +33,7 @@ const Feedback = () => {
         <h1 className='[font-size:_clamp(48px,7vw,130px)] font-extrabold leading-110 text-secondary-foreground max-w-[800px]'>
           {/* Add your slogan or heading here if needed */}
         </h1>
-        <Link href={"tel:+8055448888"}>
+        <Link href={"tel:8055448888"}>
           <ButtonFill className={"after:left-0 after:bg-secondary text-primary-foreground border-secondary hover:text-secondary-foreground mt-6 md:mt-0"}>
             Let’s Talk <RightArrow width={"35"} height={"22"} />
           </ButtonFill>
