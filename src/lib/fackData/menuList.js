@@ -3,7 +3,7 @@ export const menuList = [
     {
         id: 1,
         name: "Home",
-        path: "https://cnn.com",
+        path: "/",
         isMegaMenu: false,
         isDropdown: false
     },
