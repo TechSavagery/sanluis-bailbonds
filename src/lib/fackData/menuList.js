@@ -193,13 +193,6 @@ export const menuList = [
     //         },
     //     ]
     // },
-    {
-        id: 6,
-        name: "About Us",
-        path: "#",
-        isMegaMenu: false,
-        isDropdown: false
-    },
         {
         id: 7,
         name: "(805) 544-8888",
