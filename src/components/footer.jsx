@@ -50,7 +50,7 @@ const Footer = () => {
                     href={"mailto:hello@architronix.com"}
                     className="text-lg block text-primary-foreground hover-underline"
                   >
-                    Email: <span>info@sanluisbailbonds.com</span>
+                    Email: <span>agents@sanluisbailbonds.com</span>
                   </Link>
                 </div>
               </div>

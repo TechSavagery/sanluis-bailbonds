@@ -196,7 +196,7 @@ export const menuList = [
     {
         id: 6,
         name: "About Us",
-        path: "/about",
+        path: "#",
         isMegaMenu: false,
         isDropdown: false
     },
